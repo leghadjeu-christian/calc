@@ -1,0 +1,5 @@
+- name: Discord notification
+  uses: cl8dep/action-discord@v0
+  with:
+    webhook: ${{ secrets.DISCORD_WEBHOOK }}
+    message: 'Hello World'
